@@ -9,6 +9,31 @@
       content="Benjamin Mlynek offers professional recording, mixing, and mastering services for artists ready to release polished music. Partner with an experienced engineer who keeps your vision front and center from the first take to the final master."
     />
     <title>Benjamin Mlynek - Music Producer & Audio Engineer</title>
+    <script>
+      (function () {
+        var redirect = sessionStorage.getItem("spa-redirect");
+        if (redirect) {
+          sessionStorage.removeItem("spa-redirect");
+          window.history.replaceState(null, null, redirect);
+          return;
+        }
+
+        if (window.location.search.indexOf("?redirect=") === 0) {
+          var params = new URLSearchParams(window.location.search);
+          var queryRedirect = params.get("redirect");
+
+          if (queryRedirect) {
+            try {
+              var decoded = decodeURIComponent(queryRedirect).replace(/~and~/g, "&");
+              window.history.replaceState(null, null, decoded);
+            } catch (error) {
+              // If decoding fails, fall back to root
+              window.history.replaceState(null, null, "/");
+            }
+          }
+        }
+      })();
+    </script>
     <script type="module" crossorigin src="/assets/index-Cx8TuU7s.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CvXHW40Z.css">
   </head>
