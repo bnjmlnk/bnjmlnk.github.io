@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://benjaminmlynek.com/</loc>
+    <lastmod>2025-12-04T20:16:36.140Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://benjaminmlynek.com/guides</loc>
+    <lastmod>2025-12-04T20:16:36.140Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://benjaminmlynek.com/guides/home-recording</loc>
+    <lastmod>2025-12-04T20:16:36.140Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://benjaminmlynek.com/guides/studio-session-preparation</loc>
+    <lastmod>2025-12-04T20:16:36.140Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://benjaminmlynek.com/guides/preparing-files-for-mixing</loc>
+    <lastmod>2025-12-04T20:16:36.140Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://benjaminmlynek.com/guides/preparing-files-for-mastering</loc>
+    <lastmod>2025-12-04T20:16:36.140Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
