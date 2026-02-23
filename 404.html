@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Benjamin Mlynek - Music Producer Portfolio</title>
-    <script
-      id="Cookiebot"
-      src="https://consent.cookiebot.com/uc.js"
-      data-cbid="2ee142eb-42fe-4e6e-be07-be7ee7cfbf87"
-      data-blockingmode="auto"
-      type="text/javascript"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        var location = window.location;
-        var redirectUrl = location.pathname + location.search + location.hash;
 
-        try {
-          sessionStorage.setItem("spa-redirect", redirectUrl);
-        } catch (error) {
-          // sessionStorage may be unavailable; fallback to query string redirect
-          var encodedRedirect = redirectUrl.replace(/&/g, "~and~");
-          window.location.replace("/?redirect=" + encodeURIComponent(encodedRedirect));
-          return;
-        }
+<head>
+  <meta charset="utf-8">
+  <title>Benjamin Mlynek - Music Producer Portfolio</title>
 
-        window.location.replace("/");
-      })();
-    </script>
-  </head>
-  <body>
-  </body>
-</html> 
+  <script type="text/javascript">
+    (function () {
+      var location = window.location;
+      var redirectUrl = location.pathname + location.search + location.hash;
+
+      try {
+        sessionStorage.setItem("spa-redirect", redirectUrl);
+      } catch (error) {
+        // sessionStorage may be unavailable; fallback to query string redirect
+        var encodedRedirect = redirectUrl.replace(/&/g, "~and~");
+        window.location.replace("/?redirect=" + encodeURIComponent(encodedRedirect));
+        return;
+      }
+
+      window.location.replace("/");
+    })();
+  </script>
+</head>
+
+<body>
+</body>
+
+</html>

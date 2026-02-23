@@ -1,69 +1,65 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      id="Cookiebot"
-      src="https://consent.cookiebot.com/uc.js"
-      data-cbid="2ee142eb-42fe-4e6e-be07-be7ee7cfbf87"
-      data-blockingmode="auto"
-      type="text/javascript"
-    ></script>
-    <meta
-      name="description"
-      content="Benjamin Mlynek offers professional recording, mixing, and mastering services for artists ready to release polished music. Partner with an experienced engineer who keeps your vision front and center from the first take to the final master."
-    />
-    <title>Benjamin Mlynek - Music Producer &amp; Audio Engineer</title>
-    <link rel="canonical" href="https://benjaminmlynek.com" />
-    <meta property="og:title" content="Benjamin Mlynek - Music Producer &amp; Audio Engineer" />
-    <meta
-      property="og:description"
-      content="Benjamin Mlynek offers professional recording, mixing, and mastering services for artists ready to release polished music. Partner with an experienced engineer who keeps your vision front and center from the first take to the final master."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://benjaminmlynek.com" />
-    
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Benjamin Mlynek - Music Producer &amp; Audio Engineer" />
-    <meta
-      name="twitter:description"
-      content="Benjamin Mlynek offers professional recording, mixing, and mastering services for artists ready to release polished music. Partner with an experienced engineer who keeps your vision front and center from the first take to the final master."
-    />
-    
-    <script>
-      (function () {
-        var redirect = sessionStorage.getItem("spa-redirect");
-        if (redirect) {
-          sessionStorage.removeItem("spa-redirect");
-          window.history.replaceState(null, null, redirect);
-          return;
-        }
 
-        if (window.location.search.indexOf("?redirect=") === 0) {
-          var params = new URLSearchParams(window.location.search);
-          var queryRedirect = params.get("redirect");
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
 
-          if (queryRedirect) {
-            try {
-              var decoded = decodeURIComponent(queryRedirect).replace(/~and~/g, "&");
-              window.history.replaceState(null, null, decoded);
-            } catch (error) {
-              // If decoding fails, fall back to root
-              window.history.replaceState(null, null, "/");
-            }
+  <meta name="description"
+    content="Benjamin Mlynek offers professional recording, mixing, and mastering services for artists ready to release polished music. Partner with an experienced engineer who keeps your vision front and center from the first take to the final master." />
+  <title>Benjamin Mlynek - Music Producer &amp; Audio Engineer</title>
+  <link rel="canonical" href="https://benjaminmlynek.com" />
+  <meta property="og:title" content="Benjamin Mlynek - Music Producer &amp; Audio Engineer" />
+  <meta property="og:description"
+    content="Benjamin Mlynek offers professional recording, mixing, and mastering services for artists ready to release polished music. Partner with an experienced engineer who keeps your vision front and center from the first take to the final master." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://benjaminmlynek.com" />
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Benjamin Mlynek - Music Producer &amp; Audio Engineer" />
+  <meta name="twitter:description"
+    content="Benjamin Mlynek offers professional recording, mixing, and mastering services for artists ready to release polished music. Partner with an experienced engineer who keeps your vision front and center from the first take to the final master." />
+  
+  <script>
+    (function () {
+      var redirect = sessionStorage.getItem("spa-redirect");
+      if (redirect) {
+        sessionStorage.removeItem("spa-redirect");
+        window.history.replaceState(null, null, redirect);
+        return;
+      }
+
+      if (window.location.search.indexOf("?redirect=") === 0) {
+        var params = new URLSearchParams(window.location.search);
+        var queryRedirect = params.get("redirect");
+
+        if (queryRedirect) {
+          try {
+            var decoded = decodeURIComponent(queryRedirect).replace(/~and~/g, "&");
+            window.history.replaceState(null, null, decoded);
+          } catch (error) {
+            // If decoding fails, fall back to root
+            window.history.replaceState(null, null, "/");
           }
         }
-      })();
-    </script>
-    <script type="module" crossorigin src="/assets/index-C5j34aSg.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/markdown-o4qCf7PK.js">
-    <link rel="modulepreload" crossorigin href="/assets/vendor-aNe8OWTQ.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-vendors-Be2QoXv1.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-CyrSdhAa.css">
-  </head>
-  <body>
-    <div id="root"><div class="min-h-screen bg-background"><nav class="fixed top-0 w-full z-50 transition-all duration-300 bg-transparent"><div class="section-padding"><div class="flex items-center justify-between h-16 max-w-[min(96%,theme(maxWidth.7xl))] mx-auto"><a href="/" class="text-xl font-bold text-gradient cursor-pointer">BM</a><div class="hidden md:flex space-x-8"><a href="#home" class="text-foreground hover:text-primary transition-colors duration-200 cursor-pointer">Home</a><a href="#about" class="text-foreground hover:text-primary transition-colors duration-200 cursor-pointer">About</a><a href="#work" class="text-foreground hover:text-primary transition-colors duration-200 cursor-pointer">Work</a><a href="#services" class="text-foreground hover:text-primary transition-colors duration-200 cursor-pointer">Services</a><a href="/guides" class="text-foreground hover:text-primary transition-colors duration-200 cursor-pointer">Guides</a><a href="#contact" class="text-foreground hover:text-primary transition-colors duration-200 cursor-pointer">Contact</a></div><div class="flex items-center space-x-4"><a href="https://instagram.com/benjaminmlynek" target="_blank" rel="noopener noreferrer" class="inline-flex h-12 w-12 items-center justify-center rounded-full text-foreground transition-colors duration-200 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/60" aria-label="Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></a><button type="button" class="md:hidden inline-flex h-12 w-12 items-center justify-center rounded-full p-2 transition-colors duration-200 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/60" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-navigation"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></div></nav><section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden"><div class="absolute inset-0 bg-gradient-to-b from-background via-background/50 to-background" style="transform:translateY(0px)"></div><div class="container-width section-padding relative z-10" style="transform:translateY(0px)"><div class="text-center max-w-4xl mx-auto "><h1 class="text-5xl md:text-7xl font-bold mb-4 leading-tight fade-in-up ">Benjamin Mlynek</h1><p class="text-2xl md:text-3xl text-primary font-semibold mb-4 fade-in-up stagger-delay-1 ">Music Producer &amp; Audio Engineer</p><p class="text-xl text-muted-foreground mb-6 fade-in-up stagger-delay-2 ">Based in Odense, Denmark</p><p class="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto fade-in-up stagger-delay-3 ">Crafting powerful sounds in rock, hard rock, metal, and pop music. Professional recording, mixing, and production services.</p><div class="flex flex-col sm:flex-row gap-4 justify-center items-center fade-in-up stagger-delay-4 "><a href="#contact"><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8 group">Get In Touch</button></a><a href="#work"><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8">Listen to My Work</button></a></div></div></div><div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down text-primary"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg></div></section><!--$!--><template></template><section id="about" class="py-20"><div class="container-width section-padding"><div class="h-32 rounded-2xl bg-card/40 animate-pulse" aria-hidden="true"></div></div></section><!--/$--><!--$!--><template></template><section id="behind-scenes" class="py-20"><div class="container-width section-padding"><div class="h-32 rounded-2xl bg-card/40 animate-pulse" aria-hidden="true"></div></div></section><!--/$--><!--$!--><template></template><section id="work" class="py-20"><div class="container-width section-padding"><div class="h-32 rounded-2xl bg-card/40 animate-pulse" aria-hidden="true"></div></div></section><!--/$--><!--$!--><template></template><section id="services" class="py-20"><div class="container-width section-padding"><div class="h-32 rounded-2xl bg-card/40 animate-pulse" aria-hidden="true"></div></div></section><!--/$--><!--$!--><template></template><section id="contact" class="py-20"><div class="container-width section-padding"><div class="h-32 rounded-2xl bg-card/40 animate-pulse" aria-hidden="true"></div></div></section><!--/$--><footer class="py-8"><div class="container-width section-padding"><div class="text-center text-muted-foreground"><p>© 2025 Benjamin Mlynek</p></div></div></footer></div></div>
-  </body>
+      }
+    })();
+  </script>
+  <script type="module" crossorigin src="/assets/index-CtmgWBlW.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/markdown-NeE5l3ml.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-BcXmBBxg.js">
+  <link rel="modulepreload" crossorigin href="/assets/react-vendors-B-7zOj2k.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-CDibLrW2.css">
+</head>
+
+<body>
+  <div id="root"><div class="min-h-screen bg-background"><div class="fixed top-0 w-full z-50 pointer-events-none flex justify-center px-4 pt-6 transition-all duration-500 max-w-[100vw]"><nav class="pointer-events-auto transition-all duration-500 overflow-hidden bg-transparent px-6 py-3"><div class="flex items-center justify-between min-w-[300px] md:min-w-[600px] gap-8"><a href="/" class="text-2xl font-drama font-bold text-foreground cursor-pointer tracking-tighter">BM.</a><div class="hidden md:flex items-center space-x-8"><a href="#home" class="text-sm font-medium text-foreground/80 hover:text-primary magnetic-button cursor-pointer">Home</a><a href="#about" class="text-sm font-medium text-foreground/80 hover:text-primary magnetic-button cursor-pointer">About</a><a href="#work" class="text-sm font-medium text-foreground/80 hover:text-primary magnetic-button cursor-pointer">Work</a><a href="#services" class="text-sm font-medium text-foreground/80 hover:text-primary magnetic-button cursor-pointer">Services</a><a href="/guides" class="text-sm font-medium text-foreground/80 hover:text-primary magnetic-button cursor-pointer">Guides</a><a href="#contact" class="text-sm font-medium text-foreground/80 hover:text-primary magnetic-button cursor-pointer">Contact</a></div><div class="flex items-center space-x-2"><a href="https://instagram.com/benjaminmlynek" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 w-10 items-center justify-center rounded-full text-foreground/80 magnetic-button hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/60" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></a><button type="button" class="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-full text-foreground/80 magnetic-button hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/60" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-navigation"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></nav></div><section id="home" class="relative w-full h-[100dvh] overflow-hidden bg-background"><div class="absolute inset-0 z-0 bg-[#0D0D12] overflow-hidden"><img src="/mock-asset" alt="Studio Background" class="hero-bg w-full h-full object-cover opacity-40 mix-blend-luminosity"/><div class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-[#0D0D12] to-transparent"></div><div class="absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-[#0D0D12] to-transparent"></div><div class="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(13,13,18,0.85)_100%)]"></div></div><div class="absolute inset-0 z-10 flex flex-col justify-end pb-24 md:pb-32 px-6 md:px-16 container-width w-full"><div class="max-w-4xl"><p class="hero-element inline-block text-primary font-mono text-sm tracking-widest uppercase mb-6 px-3 py-1 rounded-full border border-primary/20 bg-primary/5">Benjamin Mlynek</p><h1 class="flex flex-col gap-2"><span class="hero-element text-3xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-foreground/90">Music Producer &amp;</span><span class="hero-element text-5xl md:text-8xl lg:text-9xl font-drama italic tracking-tight text-foreground leading-[1.1]">Audio Engineer.</span></h1><p class="hero-element mt-6 md:mt-10 text-lg md:text-xl text-muted-foreground w-full max-w-2xl font-light leading-relaxed">Professional recording, mixing, and production services tailored to your artistry and vision. Based in Odense, Denmark.</p><div class="hero-element mt-10 flex items-center gap-6"><a href="#contact" class="group relative inline-flex items-center justify-center px-8 py-4 overflow-hidden rounded-[2rem] bg-primary text-primary-foreground font-medium magnetic-button"><span class="relative z-10">Book a Session</span></a><a href="#work" class="group relative inline-flex items-center justify-center px-8 py-4 rounded-[2rem] border border-border/50 bg-card/10 backdrop-blur-sm text-foreground font-medium hover:border-primary/50 magnetic-button">Explore Portfolio</a></div></div></div><div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 hero-element flex flex-col items-center"><a href="#services" class="text-muted-foreground/50 hover:text-primary transition-colors duration-300 flex flex-col items-center gap-2 group cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-5 h-5 animate-bounce"><path d="m6 9 6 6 6-6"></path></svg></a></div></section><!--$!--><template></template><section id="about" class="py-20"><div class="container-width section-padding"><div class="h-32 rounded-2xl bg-card/40 animate-pulse" aria-hidden="true"></div></div></section><!--/$--><!--$!--><template></template><section id="behind-scenes" class="py-20"><div class="container-width section-padding"><div class="h-32 rounded-2xl bg-card/40 animate-pulse" aria-hidden="true"></div></div></section><!--/$--><!--$!--><template></template><section id="work" class="py-20"><div class="container-width section-padding"><div class="h-32 rounded-2xl bg-card/40 animate-pulse" aria-hidden="true"></div></div></section><!--/$--><!--$!--><template></template><section id="services" class="py-20"><div class="container-width section-padding"><div class="h-32 rounded-2xl bg-card/40 animate-pulse" aria-hidden="true"></div></div></section><!--/$--><!--$!--><template></template><section id="contact" class="py-20"><div class="container-width section-padding"><div class="h-32 rounded-2xl bg-card/40 animate-pulse" aria-hidden="true"></div></div></section><!--/$--><footer class="bg-[#0A0A0E] rounded-t-[4rem] border-t border-border/20 pt-20 pb-10 mt-10 shadow-2xl relative z-10"><div class="container-width section-padding"><div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16"><div class="space-y-4"><h3 class="text-3xl font-drama font-bold text-foreground">BM.</h3><p class="text-muted-foreground font-mono text-sm">Music Producer &amp; Audio Engineer</p></div><div class="space-y-4"><h4 class="text-lg font-semibold text-foreground">Navigation</h4><div class="flex flex-col space-y-2"><a href="/#about" class="text-muted-foreground hover:text-primary transition-colors magnetic-button origin-left w-fit">About</a><a href="/#work" class="text-muted-foreground hover:text-primary transition-colors magnetic-button origin-left w-fit">Work</a><a href="/#services" class="text-muted-foreground hover:text-primary transition-colors magnetic-button origin-left w-fit">Services</a><a href="/guides" class="text-muted-foreground hover:text-primary transition-colors magnetic-button origin-left w-fit">Guides</a></div></div><div class="space-y-4"><h4 class="text-lg font-semibold text-foreground">Connect</h4><div class="flex flex-col space-y-2"><a href="https://instagram.com/benjaminmlynek" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors magnetic-button origin-left w-fit">Instagram</a><a href="mailto:hello@benjaminmlynek.com" class="text-muted-foreground hover:text-primary transition-colors magnetic-button origin-left w-fit">Email</a></div></div></div><div class="pt-8 border-t border-border/20 flex flex-col md:flex-row justify-center items-center gap-4"><p class="text-muted-foreground text-sm font-mono">© 2026 Benjamin Mlynek.</p></div></div></footer></div></div>
+</body>
+
 </html>
