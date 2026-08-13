@@ -3,37 +3,43 @@
 
   <url>
     <loc>https://benjaminmlynek.com/</loc>
-    <lastmod>2026-08-11T20:56:00.902Z</lastmod>
+    <lastmod>2026-08-13T09:07:17.983Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://benjaminmlynek.com/guides</loc>
-    <lastmod>2026-08-11T20:56:00.902Z</lastmod>
+    <lastmod>2026-08-13T09:07:17.983Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://benjaminmlynek.com/guides/home-recording</loc>
-    <lastmod>2026-08-11T20:56:00.902Z</lastmod>
+    <lastmod>2026-08-13T09:07:17.983Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://benjaminmlynek.com/guides/studio-session-preparation</loc>
-    <lastmod>2026-08-11T20:56:00.902Z</lastmod>
+    <lastmod>2026-08-13T09:07:17.983Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://benjaminmlynek.com/guides/preparing-files-for-mixing</loc>
-    <lastmod>2026-08-11T20:56:00.902Z</lastmod>
+    <lastmod>2026-08-13T09:07:17.983Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://benjaminmlynek.com/guides/preparing-files-for-mastering</loc>
-    <lastmod>2026-08-11T20:56:00.902Z</lastmod>
+    <lastmod>2026-08-13T09:07:17.983Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://benjaminmlynek.com/guides/glossary</loc>
+    <lastmod>2026-08-13T09:07:17.983Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
